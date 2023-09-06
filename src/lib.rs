@@ -18,8 +18,9 @@ mod impls;
 pub mod tests;
 
 /// Most common types, and directly related types used in Bscscan
+#[allow(ambiguous_glob_reexports)]
 pub mod prelude {
-    pub use primitive_types::*;
-    pub use crate::types::*;
     pub use crate::types::Error as EvmError;
+    pub use crate::types::*;
+    pub use primitive_types::*;
 }

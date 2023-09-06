@@ -31,6 +31,9 @@ pub enum ChainType {
     /// Binance Smart Chain
     BSC,
 
+    /// Binance Smart Chain - Testnet
+    BNBT,
+
     /// Ethereum
     Ethereum,
 
